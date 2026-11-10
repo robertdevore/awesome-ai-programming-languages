@@ -1,0 +1,1775 @@
+{
+  "catalog_version": 1,
+  "last_verified": "2026-11-10",
+  "projects": [
+    {
+      "id": "autogen",
+      "name": "AutoGen",
+      "aliases": [],
+      "repository_url": "https://github.com/microsoft/autogen",
+      "documentation_url": "https://microsoft.github.io/autogen/",
+      "description": "A framework for building event-driven single- and multi-agent applications.",
+      "primary_category": "adjacent-tooling",
+      "secondary_tags": [],
+      "classification": "framework",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "CC-BY-4.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/microsoft/autogen",
+        "https://microsoft.github.io/autogen/"
+      ]
+    },
+    {
+      "id": "dspy",
+      "name": "DSPy",
+      "aliases": [],
+      "repository_url": "https://github.com/stanfordnlp/dspy",
+      "documentation_url": "https://dspy.ai/",
+      "description": "A Python framework for defining and optimizing modular programs that call language models.",
+      "primary_category": "adjacent-tooling",
+      "secondary_tags": [],
+      "classification": "framework",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/stanfordnlp/dspy",
+        "https://dspy.ai/"
+      ]
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "aliases": [],
+      "repository_url": "https://github.com/aaif-goose/goose",
+      "documentation_url": "https://goose-docs.ai/",
+      "description": "An extensible coding agent that can plan, edit, execute, and test with pluggable models and tools.",
+      "primary_category": "adjacent-tooling",
+      "secondary_tags": [],
+      "classification": "framework",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/aaif-goose/goose",
+        "https://goose-docs.ai/"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "aliases": [],
+      "repository_url": "https://github.com/langchain-ai/langgraph",
+      "documentation_url": "https://docs.langchain.com/oss/python/langgraph/",
+      "description": "A graph-based runtime for stateful, long-running agent workflows.",
+      "primary_category": "adjacent-tooling",
+      "secondary_tags": [],
+      "classification": "framework",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/langchain-ai/langgraph",
+        "https://docs.langchain.com/oss/python/langgraph/"
+      ]
+    },
+    {
+      "id": "llamaindex-workflows",
+      "name": "LlamaIndex Workflows",
+      "aliases": [],
+      "repository_url": "https://github.com/run-llama/llama-agents",
+      "documentation_url": "https://developers.llamaindex.ai/python/workflows/",
+      "description": "An event-driven, async-first framework for controlling agent and application execution flows.",
+      "primary_category": "adjacent-tooling",
+      "secondary_tags": [],
+      "classification": "framework",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/run-llama/llama-agents",
+        "https://developers.llamaindex.ai/python/workflows/"
+      ]
+    },
+    {
+      "id": "pydantic-ai",
+      "name": "PydanticAI",
+      "aliases": [],
+      "repository_url": "https://github.com/pydantic/pydantic-ai",
+      "documentation_url": "https://ai.pydantic.dev/",
+      "description": "A typed Python agent framework built around Pydantic validation and model-agnostic interfaces.",
+      "primary_category": "adjacent-tooling",
+      "secondary_tags": [],
+      "classification": "framework",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/pydantic/pydantic-ai",
+        "https://ai.pydantic.dev/"
+      ]
+    },
+    {
+      "id": "semantic-kernel",
+      "name": "Semantic Kernel",
+      "aliases": [],
+      "repository_url": "https://github.com/microsoft/semantic-kernel",
+      "documentation_url": "https://learn.microsoft.com/semantic-kernel/",
+      "description": "An SDK for composing model calls, plugins, memory, and agent workflows in conventional languages.",
+      "primary_category": "adjacent-tooling",
+      "secondary_tags": [],
+      "classification": "framework",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/microsoft/semantic-kernel",
+        "https://learn.microsoft.com/semantic-kernel/"
+      ]
+    },
+    {
+      "id": "ailang",
+      "name": "AILANG",
+      "aliases": [],
+      "repository_url": "https://github.com/sunholo-data/ailang",
+      "documentation_url": "https://ailang.sunholo.com/",
+      "description": "A deterministic language with explicit effects and an AI-oriented toolchain for agent-authored programs.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/sunholo-data/ailang",
+        "https://ailang.sunholo.com/"
+      ]
+    },
+    {
+      "id": "codong",
+      "name": "Codong",
+      "aliases": [],
+      "repository_url": "https://github.com/brettinhere/Codong",
+      "documentation_url": null,
+      "description": "A Go-transpiled language that limits common tasks to canonical forms intended to reduce agent choice.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/brettinhere/Codong"
+      ]
+    },
+    {
+      "id": "faber-romanus",
+      "name": "Faber Romanus",
+      "aliases": [],
+      "repository_url": "https://github.com/faberlang/faber",
+      "documentation_url": "https://faberlang.dev/",
+      "description": "A compact, statically typed language designed for machine authorship and native compilation.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0 OR MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/faberlang/faber",
+        "https://faberlang.dev/"
+      ]
+    },
+    {
+      "id": "fluxon",
+      "name": "Fluxon",
+      "aliases": [],
+      "repository_url": "https://github.com/fluxon-lang/fluxon",
+      "documentation_url": "https://fluxon-lang.com/",
+      "description": "A token-conscious general-purpose language with canonical syntax and agent-oriented tooling.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/fluxon-lang/fluxon",
+        "https://fluxon-lang.com/"
+      ]
+    },
+    {
+      "id": "ilo",
+      "name": "ilo",
+      "aliases": [],
+      "repository_url": "https://github.com/ilo-lang/ilo",
+      "documentation_url": "https://ilo-lang.ai/",
+      "description": "A small compiled language whose regular syntax and structured diagnostics target LLM authors.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/ilo-lang/ilo",
+        "https://ilo-lang.ai/"
+      ]
+    },
+    {
+      "id": "kujo",
+      "name": "Kujo",
+      "aliases": [],
+      "repository_url": "https://github.com/kujolang/kujo",
+      "documentation_url": "https://kujolang.ai/",
+      "description": "A general-purpose language and toolchain for building AI-native software with agent-oriented development workflows.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active development",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/kujolang/kujo",
+        "https://kujolang.ai/"
+      ]
+    },
+    {
+      "id": "lume",
+      "name": "Lume",
+      "aliases": [],
+      "repository_url": "https://github.com/mavboas/lume",
+      "documentation_url": null,
+      "description": "An immutable-by-default backend language that transpiles to Go and includes token-budgeted context tooling.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/mavboas/lume"
+      ]
+    },
+    {
+      "id": "magpie",
+      "name": "Magpie",
+      "aliases": [],
+      "repository_url": "https://github.com/magpie-lang/magpie",
+      "documentation_url": "https://magpie-lang.com/",
+      "description": "A machine-oriented language that exposes static single-assignment form as its source syntax.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/magpie-lang/magpie",
+        "https://magpie-lang.com/"
+      ]
+    },
+    {
+      "id": "mog",
+      "name": "Mog",
+      "aliases": [],
+      "repository_url": "https://github.com/voltropy/mog",
+      "documentation_url": "https://moglang.org/",
+      "description": "A compact statically typed language with flat operators and host-granted capabilities.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/voltropy/mog",
+        "https://moglang.org/"
+      ]
+    },
+    {
+      "id": "nerd",
+      "name": "NERD",
+      "aliases": [],
+      "repository_url": "https://github.com/Nerd-Lang/nerd-lang-core",
+      "documentation_url": "https://www.nerd-lang.org/",
+      "description": "An intermediate language for machine authorship with English keywords, structured diagnostics, and model and MCP primitives.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/Nerd-Lang/nerd-lang-core",
+        "https://www.nerd-lang.org/"
+      ]
+    },
+    {
+      "id": "tacit",
+      "name": "Tacit",
+      "aliases": [],
+      "repository_url": "https://github.com/weetster/tacit",
+      "documentation_url": null,
+      "description": "A compiled language with a constrained, regular surface intended for reliable LLM generation.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0 OR MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/weetster/tacit"
+      ]
+    },
+    {
+      "id": "with",
+      "name": "With",
+      "aliases": [],
+      "repository_url": "https://github.com/withlang-dev/with",
+      "documentation_url": "https://withlang.org/",
+      "description": "A typed language designed around explicit context and predictable agent-generated code.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/withlang-dev/with",
+        "https://withlang.org/"
+      ]
+    },
+    {
+      "id": "x07",
+      "name": "X07",
+      "aliases": [],
+      "repository_url": "https://github.com/x07lang/x07",
+      "documentation_url": "https://x07lang.org/",
+      "description": "A language whose canonical JSON AST and patch-based edits support structured program generation by agents.",
+      "primary_category": "agent-first",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0 OR MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/x07lang/x07",
+        "https://x07lang.org/"
+      ]
+    },
+    {
+      "id": "agentdsl",
+      "name": "AgentDSL",
+      "aliases": [],
+      "repository_url": "https://github.com/nathaniel-gordon/agentdsl",
+      "documentation_url": null,
+      "description": "A typed DSL and compiler pipeline for asynchronous agent workflows.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/nathaniel-gordon/agentdsl"
+      ]
+    },
+    {
+      "id": "awfl",
+      "name": "AWFL",
+      "aliases": [],
+      "repository_url": "https://github.com/awfl-us/dsl",
+      "documentation_url": "https://awfl.us/",
+      "description": "A typed Scala DSL for composing and executing agent workflows.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/awfl-us/dsl",
+        "https://awfl.us/"
+      ]
+    },
+    {
+      "id": "boruna",
+      "name": "Boruna",
+      "aliases": [],
+      "repository_url": "https://github.com/escapeboy/boruna",
+      "documentation_url": null,
+      "description": "A deterministic workflow language with declared effects, capability policies, and tamper-evident execution evidence.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/escapeboy/boruna"
+      ]
+    },
+    {
+      "id": "fabro",
+      "name": "Fabro",
+      "aliases": [],
+      "repository_url": "https://github.com/fabro-sh/fabro",
+      "documentation_url": "https://fabro.sh/",
+      "description": "A declarative workflow system for coordinating coding agents through reviewable software-development pipelines.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "programming-model",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/fabro-sh/fabro",
+        "https://fabro.sh/"
+      ]
+    },
+    {
+      "id": "lumen",
+      "name": "Lumen",
+      "aliases": [],
+      "repository_url": "https://github.com/alliecatowo/lumen",
+      "documentation_url": "https://alliecatowo.github.io/lumen/",
+      "description": "A Markdown-native, statically typed language for deterministic AI workflows and provider calls.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/alliecatowo/lumen",
+        "https://alliecatowo.github.io/lumen/"
+      ]
+    },
+    {
+      "id": "marsha",
+      "name": "Marsha",
+      "aliases": [],
+      "repository_url": "https://github.com/alantech/marsha",
+      "documentation_url": null,
+      "description": "A functional English-like language that uses an LLM-backed compiler to produce tested Python programs.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/alantech/marsha"
+      ]
+    },
+    {
+      "id": "pel",
+      "name": "Pel",
+      "aliases": [],
+      "repository_url": null,
+      "documentation_url": "https://arxiv.org/abs/2505.13453",
+      "description": "A research language for capability-controlled inter-agent communication and automatically parallelized orchestration.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "research prototype",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2505.13453"
+      ]
+    },
+    {
+      "id": "plasm",
+      "name": "Plasm",
+      "aliases": [],
+      "repository_url": "https://github.com/PlasmTools/plasm-core",
+      "documentation_url": "https://plasm.tools/",
+      "description": "A typed capability-graph and mapping language for describing agent access to external APIs.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/PlasmTools/plasm-core",
+        "https://plasm.tools/"
+      ]
+    },
+    {
+      "id": "quasar",
+      "name": "Quasar",
+      "aliases": [],
+      "repository_url": "https://github.com/stephenmell/quasar-colm2026-artifact",
+      "documentation_url": "https://mell.ac/projects/quasar/",
+      "description": "A research language for LLM code actions with effect separation, approval batching, parallel execution, and conformal semantics.",
+      "primary_category": "agent-workflow",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "agent-orchestration"
+      ],
+      "execution_model": null,
+      "license": "CC-BY-4.0",
+      "maturity": "research artifact",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/stephenmell/quasar-colm2026-artifact",
+        "https://mell.ac/projects/quasar/"
+      ]
+    },
+    {
+      "id": "dex",
+      "name": "Dex",
+      "aliases": [],
+      "repository_url": "https://github.com/google-research/dex-lang",
+      "documentation_url": null,
+      "description": "A research language for typed array programming and differentiable functions.",
+      "primary_category": "ai-compute",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "accelerator-compute"
+      ],
+      "execution_model": null,
+      "license": "BSD-3-Clause",
+      "maturity": "research prototype",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/google-research/dex-lang"
+      ]
+    },
+    {
+      "id": "mojo",
+      "name": "Mojo",
+      "aliases": [],
+      "repository_url": "https://github.com/modular/modular",
+      "documentation_url": "https://docs.modular.com/mojo/",
+      "description": "A systems programming language for heterogeneous AI compute with Python interoperability.",
+      "primary_category": "ai-compute",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "accelerator-compute"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/modular/modular",
+        "https://docs.modular.com/mojo/"
+      ]
+    },
+    {
+      "id": "triton",
+      "name": "Triton",
+      "aliases": [],
+      "repository_url": "https://github.com/triton-lang/triton",
+      "documentation_url": "https://triton-lang.org/",
+      "description": "A Python-embedded language and compiler for writing efficient custom GPU kernels.",
+      "primary_category": "ai-compute",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "accelerator-compute"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "production",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/triton-lang/triton",
+        "https://triton-lang.org/"
+      ]
+    },
+    {
+      "id": "aria",
+      "name": "Aria",
+      "aliases": [],
+      "repository_url": "https://github.com/dan-strohschein/aria",
+      "documentation_url": null,
+      "description": "An experimental self-hosting language developed for AI-first programming workflows.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "research prototype",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/dan-strohschein/aria"
+      ]
+    },
+    {
+      "id": "axis",
+      "name": "Axis",
+      "aliases": [],
+      "repository_url": "https://github.com/vmelnic/axis",
+      "documentation_url": null,
+      "description": "An LL(1) backend language for small models with constrained-decoding masks and generated service artifacts.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/vmelnic/axis"
+      ]
+    },
+    {
+      "id": "b-ir",
+      "name": "B-IR / Loom",
+      "aliases": [],
+      "repository_url": "https://github.com/imjasonh/loom",
+      "documentation_url": "https://articles.imjasonh.com/llm-programming-language.md",
+      "description": "A documented experiment in machine-oriented intermediate languages that evolved toward explicit contracts and stable errors.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "programming-model",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "thought experiment",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/imjasonh/loom",
+        "https://articles.imjasonh.com/llm-programming-language.md"
+      ]
+    },
+    {
+      "id": "canlang",
+      "name": "Canlang",
+      "aliases": [],
+      "repository_url": "https://github.com/veighnsche/canlang",
+      "documentation_url": "https://sodaos.dev/canlang",
+      "description": "An experimental business-application language that derives forms and agent tools from checked operations.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/veighnsche/canlang",
+        "https://sodaos.dev/canlang"
+      ]
+    },
+    {
+      "id": "gooo",
+      "name": "Gooo",
+      "aliases": [],
+      "repository_url": "https://github.com/kimjooyoon/meta-ontology-go",
+      "documentation_url": null,
+      "description": "An experimental ontology-oriented language and compiler intended for machine-authored software.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/kimjooyoon/meta-ontology-go"
+      ]
+    },
+    {
+      "id": "laze",
+      "name": "Laze",
+      "aliases": [],
+      "repository_url": "https://github.com/kerv/laze",
+      "documentation_url": null,
+      "description": "A small experimental language exploring syntax optimized for model generation.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/kerv/laze"
+      ]
+    },
+    {
+      "id": "llmlang",
+      "name": "LLMLang",
+      "aliases": [],
+      "repository_url": "https://github.com/paulprogrammer/llmlang",
+      "documentation_url": null,
+      "description": "A dense prefix language with indexed variables, structured diagnostics, and an MCP editing surface.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "GPL-3.0 with Runtime Exception",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/paulprogrammer/llmlang"
+      ]
+    },
+    {
+      "id": "prajna",
+      "name": "Prajna",
+      "aliases": [],
+      "repository_url": "https://github.com/joyboseroy/prajna",
+      "documentation_url": null,
+      "description": "A small research prototype exploring a minimal AI-native language implementation.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "research prototype",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/joyboseroy/prajna"
+      ]
+    },
+    {
+      "id": "sentience",
+      "name": "Sentience",
+      "aliases": [],
+      "repository_url": "https://github.com/nbursa/sentience",
+      "documentation_url": null,
+      "description": "An experimental language organized around contextual agents and persistent memory.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "research prototype",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/nbursa/sentience"
+      ]
+    },
+    {
+      "id": "sever",
+      "name": "Sever",
+      "aliases": [],
+      "repository_url": "https://github.com/AvitalTamir/sever",
+      "documentation_url": null,
+      "description": "A thought experiment in asking a model to design a language for machine rather than human authors.",
+      "primary_category": "experimental-research",
+      "secondary_tags": [],
+      "classification": "programming-model",
+      "ai_capabilities": [
+        "ai-assisted-authorship"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "thought experiment",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/AvitalTamir/sever"
+      ]
+    },
+    {
+      "id": "appl",
+      "name": "APPL",
+      "aliases": [],
+      "repository_url": "https://github.com/appl-team/appl",
+      "documentation_url": "https://appl-team.github.io/appl/",
+      "description": "A Python-embedded prompt programming language that composes model calls with ordinary program logic.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/appl-team/appl",
+        "https://appl-team.github.io/appl/"
+      ]
+    },
+    {
+      "id": "baml",
+      "name": "BAML",
+      "aliases": [],
+      "repository_url": "https://github.com/BoundaryML/baml",
+      "documentation_url": "https://docs.boundaryml.com/",
+      "description": "A language for typed LLM functions that generates client code and parses structured model outputs.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/BoundaryML/baml",
+        "https://docs.boundaryml.com/"
+      ]
+    },
+    {
+      "id": "colang",
+      "name": "Colang",
+      "aliases": [],
+      "repository_url": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "documentation_url": "https://docs.nvidia.com/nemo/guardrails/latest/",
+      "description": "A conversational DSL in NeMo Guardrails for specifying dialogue flows and model guardrails.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/NVIDIA-NeMo/Guardrails",
+        "https://docs.nvidia.com/nemo/guardrails/latest/"
+      ]
+    },
+    {
+      "id": "guidance",
+      "name": "Guidance",
+      "aliases": [],
+      "repository_url": "https://github.com/guidance-ai/guidance",
+      "documentation_url": "https://guidance.readthedocs.io/",
+      "description": "A Python-embedded language for constrained generation, control flow, and structured model outputs.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/guidance-ai/guidance",
+        "https://guidance.readthedocs.io/"
+      ]
+    },
+    {
+      "id": "lmql",
+      "name": "LMQL",
+      "aliases": [],
+      "repository_url": "https://github.com/eth-sri/lmql",
+      "documentation_url": "https://lmql.ai/",
+      "description": "A query language for language models with constraints, control flow, and decoding directives.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/eth-sri/lmql",
+        "https://lmql.ai/"
+      ]
+    },
+    {
+      "id": "pdl",
+      "name": "Prompt Declaration Language",
+      "aliases": [],
+      "repository_url": "https://github.com/IBM/prompt-declaration-language",
+      "documentation_url": "https://ibm.github.io/prompt-declaration-language/",
+      "description": "A YAML-based declarative language for composing prompts, model calls, tools, and traditional control flow.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/IBM/prompt-declaration-language",
+        "https://ibm.github.io/prompt-declaration-language/"
+      ]
+    },
+    {
+      "id": "ppl",
+      "name": "Prompt Programming Language",
+      "aliases": [],
+      "repository_url": "https://github.com/williambrendel/Prompt-Programming-Language",
+      "documentation_url": null,
+      "description": "A structured, indentation-based DSL for organizing prompts, variables, and refinement steps.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/williambrendel/Prompt-Programming-Language"
+      ]
+    },
+    {
+      "id": "sglang",
+      "name": "SGLang",
+      "aliases": [],
+      "repository_url": "https://github.com/sgl-project/sglang",
+      "documentation_url": "https://sglang.io/",
+      "description": "A language and serving system for structured LLM programs, including model calls, control flow, and constrained outputs.",
+      "primary_category": "llm-prompt",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "model-calls"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "production",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/sgl-project/sglang",
+        "https://sglang.io/"
+      ]
+    },
+    {
+      "id": "anglican",
+      "name": "Anglican",
+      "aliases": [],
+      "repository_url": "https://github.com/probprog/anglican",
+      "documentation_url": "https://probprog.github.io/anglican/",
+      "description": "A Clojure-hosted probabilistic programming system for composing models and inference algorithms.",
+      "primary_category": "probabilistic",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "probabilistic-inference"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "mature",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/probprog/anglican",
+        "https://probprog.github.io/anglican/"
+      ]
+    },
+    {
+      "id": "gen",
+      "name": "Gen",
+      "aliases": [],
+      "repository_url": "https://github.com/probcomp/Gen.jl",
+      "documentation_url": "https://gen.dev/",
+      "description": "A Julia probabilistic programming system with programmable inference.",
+      "primary_category": "probabilistic",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "probabilistic-inference"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/probcomp/Gen.jl",
+        "https://gen.dev/"
+      ]
+    },
+    {
+      "id": "numpyro",
+      "name": "NumPyro",
+      "aliases": [],
+      "repository_url": "https://github.com/pyro-ppl/numpyro",
+      "documentation_url": "https://num.pyro.ai/",
+      "description": "A JAX-based probabilistic programming library with automatic differentiation and accelerator execution.",
+      "primary_category": "probabilistic",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "probabilistic-inference"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/pyro-ppl/numpyro",
+        "https://num.pyro.ai/"
+      ]
+    },
+    {
+      "id": "pyro",
+      "name": "Pyro",
+      "aliases": [],
+      "repository_url": "https://github.com/pyro-ppl/pyro",
+      "documentation_url": "https://pyro.ai/",
+      "description": "A universal probabilistic programming language embedded in Python and backed by PyTorch.",
+      "primary_category": "probabilistic",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "probabilistic-inference"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/pyro-ppl/pyro",
+        "https://pyro.ai/"
+      ]
+    },
+    {
+      "id": "stan",
+      "name": "Stan",
+      "aliases": [],
+      "repository_url": "https://github.com/stan-dev/stan",
+      "documentation_url": "https://mc-stan.org/",
+      "description": "A standalone probabilistic language for Bayesian statistical modeling and inference.",
+      "primary_category": "probabilistic",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "probabilistic-inference"
+      ],
+      "execution_model": null,
+      "license": "BSD-3-Clause",
+      "maturity": "mature",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/stan-dev/stan",
+        "https://mc-stan.org/"
+      ]
+    },
+    {
+      "id": "turing",
+      "name": "Turing.jl",
+      "aliases": [],
+      "repository_url": "https://github.com/TuringLang/Turing.jl",
+      "documentation_url": "https://turinglang.org/",
+      "description": "A Julia probabilistic programming system for Bayesian modeling and composable inference.",
+      "primary_category": "probabilistic",
+      "secondary_tags": [],
+      "classification": "embedded-dsl",
+      "ai_capabilities": [
+        "probabilistic-inference"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/TuringLang/Turing.jl",
+        "https://turinglang.org/"
+      ]
+    },
+    {
+      "id": "webppl",
+      "name": "WebPPL",
+      "aliases": [],
+      "repository_url": "https://github.com/probmods/webppl",
+      "documentation_url": "http://webppl.org/",
+      "description": "A JavaScript-like probabilistic programming language for teaching and research.",
+      "primary_category": "probabilistic",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "probabilistic-inference"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "mature",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/probmods/webppl",
+        "http://webppl.org/"
+      ]
+    },
+    {
+      "id": "aver",
+      "name": "Aver",
+      "aliases": [],
+      "repository_url": "https://github.com/jasisz/aver",
+      "documentation_url": "https://averlang.dev/",
+      "description": "A contract-oriented language designed to make agent-authored behavior mechanically checkable.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/jasisz/aver",
+        "https://averlang.dev/"
+      ]
+    },
+    {
+      "id": "bend",
+      "name": "Bend 2",
+      "aliases": [],
+      "repository_url": "https://github.com/bendlang/bend",
+      "documentation_url": "https://bend-lang.com/",
+      "description": "A proof-oriented language that checks program properties intended to prevent common AI-generated mistakes.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "active",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/bendlang/bend",
+        "https://bend-lang.com/"
+      ]
+    },
+    {
+      "id": "bhc-hx",
+      "name": "BHC/hx",
+      "aliases": [],
+      "repository_url": "https://github.com/arcanist-sh/hx",
+      "documentation_url": "https://raskell.io/",
+      "description": "An experimental verified language stack combining an agent-facing syntax with a capability-aware compiler.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/arcanist-sh/hx",
+        "https://raskell.io/"
+      ]
+    },
+    {
+      "id": "cohesive",
+      "name": "Cohesive",
+      "aliases": [],
+      "repository_url": "https://github.com/cohesivesystems/cohesive",
+      "documentation_url": null,
+      "description": "A specification- and contract-oriented language for producing checkable agent-authored programs.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/cohesivesystems/cohesive"
+      ]
+    },
+    {
+      "id": "hale",
+      "name": "Hale",
+      "aliases": [],
+      "repository_url": "https://github.com/hale-lang/hale",
+      "documentation_url": "https://hale-lang.org/",
+      "description": "A typed language that emphasizes explicit effects and compiler-enforced constraints for machine-generated code.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/hale-lang/hale",
+        "https://hale-lang.org/"
+      ]
+    },
+    {
+      "id": "intent",
+      "name": "Intent",
+      "aliases": [],
+      "repository_url": "https://github.com/lhaig/intent",
+      "documentation_url": null,
+      "description": "An intent- and contract-oriented language for compiling high-level specifications into checked programs.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/lhaig/intent"
+      ]
+    },
+    {
+      "id": "jacquard",
+      "name": "Jacquard",
+      "aliases": [],
+      "repository_url": "https://github.com/jbwinters/jacquard-lang",
+      "documentation_url": "https://jacquardlang.org/",
+      "description": "A language with explicit contracts and structured diagnostics for reliable machine authorship.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/jbwinters/jacquard-lang",
+        "https://jacquardlang.org/"
+      ]
+    },
+    {
+      "id": "lom",
+      "name": "Lom",
+      "aliases": [],
+      "repository_url": "https://github.com/lom-lang/lom",
+      "documentation_url": null,
+      "description": "A statically checked language designed to constrain and verify programs generated by language models.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/lom-lang/lom"
+      ]
+    },
+    {
+      "id": "modula-9",
+      "name": "Modula-9",
+      "aliases": [],
+      "repository_url": "https://github.com/atverm/m9c",
+      "documentation_url": "https://tutorial.modula9.net/",
+      "description": "A contract-focused systems language with an agent-oriented compiler and tutorial.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "GPL-3.0-or-later",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/atverm/m9c",
+        "https://tutorial.modula9.net/"
+      ]
+    },
+    {
+      "id": "moonbit",
+      "name": "MoonBit",
+      "aliases": [],
+      "repository_url": "https://github.com/moonbitlang/moonbit-docs",
+      "documentation_url": "https://www.moonbitlang.com/",
+      "description": "A general-purpose language and WebAssembly toolchain with structured tooling and dedicated guidance for coding agents.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": null,
+      "maturity": "production",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/moonbitlang/moonbit-docs",
+        "https://www.moonbitlang.com/"
+      ]
+    },
+    {
+      "id": "muro",
+      "name": "Muro",
+      "aliases": [],
+      "repository_url": "https://github.com/murolang/muro",
+      "documentation_url": "https://muro-lang.dev/",
+      "description": "An experimental contract-driven language for constrained machine authorship.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/murolang/muro",
+        "https://muro-lang.dev/"
+      ]
+    },
+    {
+      "id": "nanolang",
+      "name": "NanoLang",
+      "aliases": [],
+      "repository_url": "https://github.com/jordanhubbard/nanolang",
+      "documentation_url": "https://jordanhubbard.github.io/nanolang/",
+      "description": "A compact, statically checked language designed for reliable generation within small model contexts.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/jordanhubbard/nanolang",
+        "https://jordanhubbard.github.io/nanolang/"
+      ]
+    },
+    {
+      "id": "pact-agent",
+      "name": "Pact",
+      "aliases": [],
+      "repository_url": "https://github.com/KikotVit/pact-lang",
+      "documentation_url": null,
+      "description": "A contract-based language for agent-generated programs with compiler-checked obligations.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/KikotVit/pact-lang"
+      ]
+    },
+    {
+      "id": "reqlan",
+      "name": "reqlan",
+      "aliases": [],
+      "repository_url": "https://github.com/littletuna4/reqlan",
+      "documentation_url": "https://reqlan.com/",
+      "description": "A requirements-oriented language that connects executable specifications to generated implementations.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "AGPL-3.0-only",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/littletuna4/reqlan",
+        "https://reqlan.com/"
+      ]
+    },
+    {
+      "id": "semaprax",
+      "name": "SEMAPRAX",
+      "aliases": [],
+      "repository_url": "https://github.com/wavect/semaprax",
+      "documentation_url": "https://wavect.io/semaprax/",
+      "description": "A semantically explicit language with machine-checkable contracts for agent-authored software.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/wavect/semaprax",
+        "https://wavect.io/semaprax/"
+      ]
+    },
+    {
+      "id": "sigil",
+      "name": "Sigil",
+      "aliases": [],
+      "repository_url": "https://github.com/goodnasubi/sigil",
+      "documentation_url": null,
+      "description": "A typed, verification-oriented language for predictable AI-generated programs.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/goodnasubi/sigil"
+      ]
+    },
+    {
+      "id": "thermite",
+      "name": "Thermite",
+      "aliases": [],
+      "repository_url": "https://github.com/dollspace-gay/Thermite",
+      "documentation_url": null,
+      "description": "A verification-oriented compiled language with contracts for machine-authored code.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/dollspace-gay/Thermite"
+      ]
+    },
+    {
+      "id": "vera",
+      "name": "Vera",
+      "aliases": [],
+      "repository_url": "https://github.com/aallan/vera",
+      "documentation_url": "https://veralang.dev/",
+      "description": "A language with mandatory function contracts, SMT-backed verification, typed slots, and first-class model inference.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/aallan/vera",
+        "https://veralang.dev/"
+      ]
+    },
+    {
+      "id": "vow",
+      "name": "Vow",
+      "aliases": [],
+      "repository_url": "https://github.com/vow-lang/vow",
+      "documentation_url": "https://vow-lang.com/",
+      "description": "A contract-first language that turns specifications into compiler-checkable obligations for agent-authored code.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "MIT",
+      "maturity": "working compiler",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/vow-lang/vow",
+        "https://vow-lang.com/"
+      ]
+    },
+    {
+      "id": "zero",
+      "name": "Zero",
+      "aliases": [],
+      "repository_url": "https://github.com/vercel-labs/zerolang",
+      "documentation_url": "https://zerolang.ai/",
+      "description": "An early agent-oriented language centered on typed specifications and mechanically checked implementations.",
+      "primary_category": "verified-agent-safe",
+      "secondary_tags": [],
+      "classification": "standalone-language",
+      "ai_capabilities": [
+        "ai-assisted-authorship",
+        "verification"
+      ],
+      "execution_model": null,
+      "license": "Apache-2.0",
+      "maturity": "early implementation",
+      "archived": false,
+      "last_verified": "2026-11-10",
+      "evidence_urls": [
+        "https://github.com/vercel-labs/zerolang",
+        "https://zerolang.ai/"
+      ]
+    }
+  ]
+}
+
