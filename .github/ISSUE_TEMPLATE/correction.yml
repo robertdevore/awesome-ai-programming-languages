@@ -1,0 +1,30 @@
+name: Catalog correction
+description: Report incorrect, outdated, or missing catalog information.
+title: "[Correction]: "
+labels: [correction]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current information
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary evidence
+      description: Include official URLs and the date checked.
+    validations:
+      required: true
