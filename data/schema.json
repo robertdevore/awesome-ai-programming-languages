@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/robertdevore/awesome-ai-programming-languages/blob/main/data/schema.json",
+  "title": "Awesome AI Programming Languages catalog",
+  "type": "object",
+  "required": ["catalog_version", "last_verified", "projects"],
+  "additionalProperties": false,
+  "properties": {
+    "catalog_version": { "type": "integer", "minimum": 1 },
+    "last_verified": { "type": "string", "format": "date" },
+    "projects": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/project" }
+    }
+  },
+  "$defs": {
+    "urlOrNull": {
+      "oneOf": [
+        { "type": "string", "format": "uri", "pattern": "^https?://" },
+        { "type": "null" }
+      ]
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "name", "aliases", "repository_url", "documentation_url",
+        "description", "primary_category", "secondary_tags", "classification",
+        "ai_capabilities", "execution_model", "license", "maturity", "archived",
+        "last_verified", "evidence_urls"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "repository_url": { "$ref": "#/$defs/urlOrNull" },
+        "documentation_url": { "$ref": "#/$defs/urlOrNull" },
+        "description": { "type": "string", "minLength": 20 },
+        "primary_category": {
+          "enum": ["agent-first", "llm-prompt", "agent-workflow", "verified-agent-safe", "probabilistic", "ai-compute", "experimental-research", "adjacent-tooling"]
+        },
+        "secondary_tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "classification": { "enum": ["standalone-language", "embedded-dsl", "framework", "programming-model"] },
+        "ai_capabilities": { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
+        "execution_model": { "type": ["string", "null"] },
+        "license": { "type": ["string", "null"] },
+        "maturity": { "type": "string", "minLength": 1 },
+        "archived": { "type": "boolean" },
+        "last_verified": { "type": "string", "format": "date" },
+        "evidence_urls": { "type": "array", "items": { "type": "string", "format": "uri", "pattern": "^https?://" }, "minItems": 1, "uniqueItems": true }
+      }
+    }
+  }
+}

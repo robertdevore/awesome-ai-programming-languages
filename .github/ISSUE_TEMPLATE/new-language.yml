@@ -1,0 +1,60 @@
+name: New language
+description: Propose a language, DSL, programming model, or adjacent framework.
+title: "[Proposal]: "
+labels: [proposal]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Canonical repository
+      placeholder: https://github.com/owner/project
+  - type: input
+    id: documentation
+    attributes:
+      label: Official documentation or primary paper
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Proposed primary category
+      options:
+        - Agent-first and AI-native general-purpose
+        - LLM and prompt programming
+        - Agent orchestration and workflow
+        - Verified, contract-driven, and agent-safe
+        - Probabilistic programming
+        - Differentiable and AI compute
+        - Experimental and research
+        - Adjacent frameworks and tooling
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Inclusion rationale
+      description: Explain the language-like abstraction and distinctive purpose.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary evidence
+      description: Link evidence for capabilities, execution model, license, maturity, and status.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched the README, catalog, issues, and pull requests for duplicates and aliases.
+          required: true
+        - label: I read the inclusion criteria and taxonomy.
+          required: true
