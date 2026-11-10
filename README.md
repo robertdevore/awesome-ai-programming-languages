@@ -163,4 +163,3 @@ Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and the [incl
 ## License
 
 The curated list and repository-authored documentation are dedicated to the public domain under [CC0 1.0 Universal](LICENSE). Linked projects retain their own licenses.
-

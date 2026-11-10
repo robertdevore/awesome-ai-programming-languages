@@ -27,7 +27,7 @@ Use the **Correction** issue template. Include the current text, proposed text, 
 
 ## Editorial style
 
-- Use `- [Project](canonical-url) - Neutral one-sentence description.`
+- Use `- [Project](https://example.com) - Neutral one-sentence description.` with the real canonical URL.
 - Start descriptions with an article or clear noun phrase.
 - Avoid rankings, endorsements, star counts, unsupported benchmarks, and marketing adjectives.
 - Describe shipped behavior, not roadmap claims, unless the roadmap status is explicit.

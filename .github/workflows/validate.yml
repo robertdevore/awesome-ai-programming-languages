@@ -18,6 +18,10 @@ jobs:
           python-version: "3.12"
       - name: Validate catalog and README synchronization
         run: python3 scripts/validate_catalog.py
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "**/*.md"
       - name: Check repository-authored Markdown links
         run: |
           python3 - <<'PY'
