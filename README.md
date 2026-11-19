@@ -36,7 +36,7 @@ Languages designed for AI agents to write, maintain, execute, or reason about so
 
 - [AILANG](https://github.com/sunholo-data/ailang) - A deterministic language with explicit effects and an AI-oriented toolchain for agent-authored programs.
 - [Codong](https://github.com/brettinhere/Codong) - A Go-transpiled language that limits common tasks to canonical forms intended to reduce agent choice.
-- [Faber Romanus](https://github.com/faberlang/faber) - A compact, statically typed language designed for machine authorship and native compilation.
+- [Faber Romanus](https://github.com/faberlang/faber) - A statically typed language for coding agents and human authors that compiles to Rust, TypeScript, Go, Swift and other targets.
 - [Fluxon](https://github.com/fluxon-lang/fluxon) - A token-conscious general-purpose language with canonical syntax and agent-oriented tooling.
 - [ilo](https://github.com/ilo-lang/ilo) - A small compiled language whose regular syntax and structured diagnostics target LLM authors.
 - [Kujo](https://github.com/kujolang/kujo) - A general-purpose language and toolchain for building AI-native software with agent-oriented development workflows.
