@@ -214,7 +214,7 @@
       "aliases": [],
       "repository_url": "https://github.com/faberlang/faber",
       "documentation_url": "https://faberlang.dev/",
-      "description": "A compact, statically typed language designed for machine authorship and native compilation",
+      "description": "A statically typed language for coding agents and human authors that compiles to Rust, TypeScript, Go, Swift and other targets",
       "primary_category": "agent-first",
       "secondary_tags": [],
       "classification": "standalone-language",
